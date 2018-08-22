@@ -11,7 +11,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-text.scan("/^.{5}$/") 
+text.match("/^.{5}$/") 
 return text 
 end
 
